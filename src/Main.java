@@ -1,36 +1,21 @@
-import javax.xml.bind.SchemaOutputResolver;
-import java.util.Scanner;
+import homeWork01.ClassTask01;
+import homeWork01.ClassTask02;
+
+/**
+ * Для проверки ДЗ необходимо открыть нужный блок кода :))
+ */
+
 
 public class Main {
+
     public static void main(String[] args) {
-
-        int a = 1;
-        int m[] = {0,1,2};
-        String hello = "Hello,world";
-        System.out.println(hello);
-        System.out.print("Введите значение :");
-        Scanner sc = new Scanner (System.in);
-
-        try {
-            a = sc.nextInt();
-            m[a] = 4 / a;
-            System.out.println(m[a]);
-
-            hello = null;
-            hello.toString();
-//            throw FactorialException();
-        }
-        catch (ArithmeticException e){
-            System.out.println("ArithmeticException ");
-        }
-        catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("ArrayIndexOutOfBoundsException ");
-        }
-        catch (NullPointerException e){
-            System.out.println("NullPointerException ");
-        }
-//        catch (Exception e){
-//            System.out.println("другая ошибка O_o ");
-//        }
+        /* ДЗ 2 задача 1 */
+//        ClassTask01 task01 = new ClassTask01();
+//        task01.Task01();
+        /* ДЗ 2 зачада 2 */
+//        ClassTask02 task02 = new ClassTask02();
+//        task02.Task02();
+        /* ДЗ 2 зачада 3 */
+//        need more time :(
     }
 }
