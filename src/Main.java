@@ -1,6 +1,3 @@
-import lesson02.task01.ClassTask01;
-import lesson02.task2.ClassTask02;
-
 /**
  * Для проверки ДЗ необходимо открыть нужный блок кода :))
  */
